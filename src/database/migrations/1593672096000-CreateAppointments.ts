@@ -29,7 +29,7 @@ export default class CreateAppointments1593672096000 implements MigrationInterfa
             default: 'now()',
           },
           {
-            name: 'update_at',
+            name: 'updated_at',
             type:"timestamp",
             default: 'now()',
           },

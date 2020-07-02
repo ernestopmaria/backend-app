@@ -35,7 +35,7 @@ export default class CreateUsers1593689811911 implements MigrationInterface {
           default: 'now()',
         },
         {
-          name: 'update_at',
+          name: 'updated_at',
           type:"timestamp",
           default: 'now()',
         },
