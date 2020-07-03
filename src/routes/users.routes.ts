@@ -40,6 +40,7 @@ usersRouter.patch('/avatar', ensureAuthenticaded, upload.single('avatar'),
      avatarFilename: request.file.filename,
    });
 
+   delete user.password;
    return response.json(user);
 
  }catch (err){
