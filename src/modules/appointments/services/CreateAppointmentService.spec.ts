@@ -32,7 +32,7 @@ it('should note be able to create two appointment on the same time', async () =>
     provider_id: '123',
   });
 
-  expect(
+  await expect(
     createAppointment.execute({
       date: appointmentData,
       provider_id: '123',
