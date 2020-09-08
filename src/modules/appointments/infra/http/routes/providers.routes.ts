@@ -15,11 +15,11 @@ providersRouter.use(ensureAuthenticated);
 
 providersRouter.get('/', providersController.index);
 providersRouter.get(
-  '/:id/month-availability',
+  '/:provider_id/month-availability',
   providerMonthAvailabilityController.index,
 );
 providersRouter.get(
-  '/:id/day-availability',
+  '/:provider_id/day-availability',
   providerDayAvailabilityController.index,
 );
 
