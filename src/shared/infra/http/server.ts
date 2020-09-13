@@ -1,5 +1,6 @@
 import cors from 'cors';
 import 'reflect-metadata';
+import 'dotenv/config';
 import express, { Response, Request, NextFunction } from 'express';
 import 'express-async-errors';
 import uploadConfig from '@config/upload';
