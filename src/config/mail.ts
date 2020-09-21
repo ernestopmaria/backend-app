@@ -14,7 +14,7 @@ export default {
 
   defaults: {
     from: {
-      email: 'ernesto.maria@zohomail.com',
+      email: 'suporte@wakandapp.club',
       name: 'Ernesto Maria',
     },
   },
