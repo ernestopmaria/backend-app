@@ -14,6 +14,9 @@ interface IUploadConfig {
   };
   config: {
     disk: {};
+    aws: {
+      bucket: string;
+    };
   };
 }
 export default {
@@ -32,5 +35,8 @@ export default {
   },
   config: {
     disk: {},
+    aws: {
+      bucket: 'wakandapp-gobarber',
+    },
   },
 } as IUploadConfig;
